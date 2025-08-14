@@ -1,0 +1,51 @@
+SCRIPT LANCÉ
+RAW: {"id":5}
+Avant écriture JSON : [{"id":1,"nom":"Jean Duponte","email":"salut.dupont@example.com","telephone":"0601020304","adresse":"12 rue des Lilas, 75000 Paris","statut":"Actif"},{"id":2,"nom":"DORNON Joffrey","email":"joffrey.dornon@gmail.com","telephone":"0652114783","adresse":"23 route de Hourson, 40410 Saugnac-et-Muret","statut":"Actif"},{"id":3,"nom":"Sarah Deux","email":"sarahdeux@gmail.com","telephone":"0525352535","adresse":"Route des k-sos, 25600 jecpas","statut":"Actif"},{"id":4,"nom":"Jean EUDE","email":"jeanleeude@gmail.com","telephone":"0699863625","adresse":"25 rue je suis ici, 75000 PARIS","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":5}
+Avant écriture JSON : [{"id":1,"nom":"Jean Duponte","email":"salut.dupont@example.com","telephone":"0601020304","adresse":"12 rue des Lilas, 75000 Paris","statut":"Actif"},{"id":2,"nom":"DORNON Joffrey","email":"joffrey.dornon@gmail.com","telephone":"0652114783","adresse":"23 route de Hourson, 40410 Saugnac-et-Muret","statut":"Actif"},{"id":3,"nom":"Sarah Deux","email":"sarahdeux@gmail.com","telephone":"0525352535","adresse":"Route des k-sos, 25600 jecpas","statut":"Actif"},{"id":4,"nom":"Jean EUDE","email":"jeanleeude@gmail.com","telephone":"0699863625","adresse":"25 rue je suis ici, 75000 PARIS","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":4}
+Avant écriture JSON : [{"id":1,"nom":"Jean Duponte","email":"salut.dupont@example.com","telephone":"0601020304","adresse":"12 rue des Lilas, 75000 Paris","statut":"Actif"},{"id":2,"nom":"DORNON Joffrey","email":"joffrey.dornon@gmail.com","telephone":"0652114783","adresse":"23 route de Hourson, 40410 Saugnac-et-Muret","statut":"Actif"},{"id":3,"nom":"Sarah Deux","email":"sarahdeux@gmail.com","telephone":"0525352535","adresse":"Route des k-sos, 25600 jecpas","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":null}
+ID manquant
+SCRIPT LANCÉ
+RAW: {"id":null}
+ID manquant
+SCRIPT LANCÉ
+RAW: {"id":null}
+ID manquant
+SCRIPT LANCÉ
+RAW: {}
+ID manquant
+SCRIPT LANCÉ
+RAW: {"id":null}
+ID manquant
+SCRIPT LANCÉ
+RAW: {"id":9289}
+Avant écriture JSON : [{"nom":"Client #8","email":"client8@example.com","telephone":"0123456781","adresse":"12 Rue de la Libert\u00e9, 75012 Paris","ville":"Paris","cp":"75012","siret":"123 456 789 00011","tva":"20"},{"nom":"Client #16","email":"client16@example.com","telephone":"0123456782","adresse":"22 Rue des Champs, 69002 Lyon","ville":"Lyon","cp":"69002","siret":"987 654 321 00022","tva":"20"},{"nom":"Client #14","email":"client14@example.com","telephone":"0123456783","adresse":"34 Avenue de la R\u00e9publique, 33000 Bordeaux","ville":"Bordeaux","cp":"33000","siret":"111 222 333 00033","tva":"20"},{"nom":"Client #5","email":"client5@example.com","telephone":"0123456784","adresse":"56 Boulevard de la Gare, 75005 Paris","ville":"Paris","cp":"75005","siret":"444 555 666 00044","tva":"20"},{"nom":"Client #10","email":"client10@example.com","telephone":"0123456785","adresse":"78 Rue de la Paix, 75008 Paris","ville":"Paris","cp":"75008","siret":"777 888 999 00055","tva":"20"},{"nom":"Client #20","email":"client20@example.com","telephone":"0123456786","adresse":"90 Place des Ternes, 75017 Paris","ville":"Paris","cp":"75017","siret":"222 333 444 00066","tva":"20"},{"nom":"Client #9","email":"client9@example.com","telephone":"0123456787","adresse":"12 Rue Saint-Martin, 75003 Paris","ville":"Paris","cp":"75003","siret":"333 444 555 00077","tva":"20"},{"nom":"Client #17","email":"client17@example.com","telephone":"0123456788","adresse":"14 Boulevard Saint-Germain, 75005 Paris","ville":"Paris","cp":"75005","siret":"666 777 888 00088","tva":"20"},{"nom":"Client #4","email":"client4@example.com","telephone":"0123456789","adresse":"16 Avenue des Champs-\u00c9lys\u00e9es, 75008 Paris","ville":"Paris","cp":"75008","siret":"999 000 111 00099","tva":"20"},{"nom":"Client #18","email":"client18@example.com","telephone":"0123456790","adresse":"18 Rue de la Montagne, 69001 Lyon","ville":"Lyon","cp":"69001","siret":"555 666 777 00000","tva":"20"},{"id":1,"nom":"Arthur Mailleur","email":"user-12@gmail.com","telephone":"0758985746","adresse":"3 Rue Des Grands Ch\u00eanes","statut":"Actif"},{"id":null,"nom":"test","email":"test@test.fr","telephone":"0652114783","adresse":"23 route de Hourson","statut":"Actif"},{"id":null,"nom":"DORNON Joffrey","email":"joffrey.dornon@gmail.com","telephone":"0652114783","adresse":"23 route de Hourson","statut":"Actif"},{"id":null,"nom":"Aladin 2","email":"joffrey.dornon@gmail.com","telephone":"0652114783","adresse":"23 route de Hourson","statut":"Actif"},{"id":null,"nom":"test","email":"test@test.fr","telephone":"0652114783","adresse":"23 route de Hourson","statut":"Actif"},{"id":null,"nom":"test","email":"test@test.fr","telephone":"0652114783","adresse":"23 route de Hourson","statut":"Actif"},{"id":null,"nom":"test","email":"test@test.fr","telephone":"0652114783","adresse":"23 route de Hourson","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":1}
+Avant écriture JSON : [{"id":2,"nom":"DORNON Joffrey","email":"joffrey.dornon@gmail.com","telephone":"0652114783","adresse":"23 route de Hourson, 40410 Saugnac-et-Muret","statut":"Actif"},{"id":3,"nom":"Sarah Deux","email":"sarahdeux@gmail.com","telephone":"0525352535","adresse":"Route des k-sos, 25600 jecpas","statut":"Actif"},{"id":4,"nom":"Jean EUDE","email":"jeanleeude@gmail.com","telephone":"0699863625","adresse":"25 rue je suis ici, 75000 PARIS","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":2}
+Avant écriture JSON : [{"id":3,"nom":"Sarah Deux","email":"sarahdeux@gmail.com","telephone":"0525352535","adresse":"Route des k-sos, 25600 jecpas","statut":"Actif"},{"id":4,"nom":"Jean EUDE","email":"jeanleeude@gmail.com","telephone":"0699863625","adresse":"25 rue je suis ici, 75000 PARIS","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":3}
+Avant écriture JSON : [{"id":4,"nom":"Jean EUDE","email":"jeanleeude@gmail.com","telephone":"0699863625","adresse":"25 rue je suis ici, 75000 PARIS","statut":"Actif"}]
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":4}
+Avant écriture JSON : []
+Écriture OK ? oui
+SCRIPT LANCÉ
+RAW: {"id":9663}
+Avant écriture JSON : []
+Écriture OK ? oui

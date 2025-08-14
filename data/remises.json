@@ -1,0 +1,19 @@
+[
+    {
+        "nom": "test",
+        "pourcentage": 10,
+        "article": null
+    },
+    {
+        "nom": "test",
+        "pourcentage": 10,
+        "article": "test"
+    },
+    {
+        "nom": "tesst",
+        "pourcentage": 10,
+        "article": "undefined"
+    },
+    [],
+    []
+]

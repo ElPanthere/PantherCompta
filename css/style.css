@@ -1,0 +1,242 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header.navbar {
+  background-color: #2196f3;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header.navbar h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header.navbar nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+header.navbar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: opacity 0.2s;
+}
+
+header.navbar nav a:hover {
+  opacity: 0.8;
+}
+
+header.navbar nav a.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 0.2rem;
+}
+
+/* Main layout */
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Dashboard cards */
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* Graph section */
+.graph {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Buttons & Inputs */
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+button .del {
+  background-color: #ff6961;
+  color: white;
+}
+
+
+button:hover {
+  background-color: #1976d2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  padding: 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: auto;
+}
+
+form label {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+table th,
+table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+table th {
+  background-color: #f5f7fa;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Toolbar */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.toolbar input[type="text"] {
+  width: 300px;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+/* === Refonte UI — viewer & toolbar === */
+:root{--bg:#0b0b0b;--panel:#111214;--ink:#0f0f10;--text:#111827;--muted:#6b7280;--brand:#7c3aed;--brand-2:#6366f1;--ring:rgba(124,58,237,.18)}
+@media (prefers-color-scheme: dark){:root{--text:#e5e7eb;--ink:#0c0c0d;--panel:#121316;--muted:#a1a1aa}}
+
+body.viewer-body{background:linear-gradient(180deg,rgba(124,58,237,.06),transparent 30%),linear-gradient(0deg,rgba(99,102,241,.06),transparent 30%),#f8fafc;min-height:100vh}
+@media (prefers-color-scheme: dark){body.viewer-body{background:linear-gradient(180deg,rgba(124,58,237,.12),transparent 30%),#0b0b0b}}
+
+.viewer{max-width:100%;padding:24px;display:flex;flex-direction:column;gap:16px}
+.viewer-toolbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid #e5e7eb;background:rgba(255,255,255,.75);backdrop-filter:saturate(1.2) blur(10px);border-radius:14px;box-shadow:0 8px 20px rgba(0,0,0,.06)}
+.viewer-brand{display:flex;align-items:center;gap:10px;font-weight:700}
+.viewer-brand-badge{width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg,var(--brand),var(--brand-2));box-shadow:0 6px 16px rgba(124,58,237,.35)}
+.viewer-actions{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px}
+.ui-btn{appearance:none;border:1px solid #e5e7eb;background:#fff;color:#111827;border-radius:11px;padding:9px 12px;font-weight:600;cursor:pointer;transition:.18s transform,.18s opacity}
+.ui-btn:hover{transform:translateY(-1px)}
+.ui-btn:active{transform:none}
+.ui-btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;border-color:transparent}
+.ui-btn.ghost{background:transparent}
+@media (prefers-color-scheme: dark){.viewer-toolbar{border-color:#1f2937;background:rgba(17,18,20,.6)}.ui-btn{border-color:#1f2937;background:#0f1114;color:#e5e7eb}.ui-btn.primary{border-color:transparent}}
+
+/* Page (A4) improved card look on screen */
+#facture{box-shadow:0 24px 60px rgba(0,0,0,.12);border-radius:14px}
+@media screen{#facture{max-width:794px;width:100%!important;height:auto!important;}}
+
+/* Tables */
+table{border-collapse:separate;border-spacing:0;width:100%;background:#fff}
+table thead th{position:sticky;top:0;background:#f3f4f6;color:#111827;text-align:left;font-weight:700;border-bottom:1px solid #e5e7eb}
+table th,table td{padding:12px 14px}
+table tbody tr{border-bottom:1px solid #f1f5f9}
+table tbody tr:nth-child(even){background:#fafafa}
+@media (prefers-color-scheme: dark){table{background:#0f1114}table thead th{background:#0c0d10;color:#e5e7eb;border-bottom-color:#1f2937}table tbody tr{border-bottom-color:#111827}table tbody tr:nth-child(even){background:#0e0f12}}
+
+/* Cards & blocks */
+.details,.facture-header,.notes{border-radius:14px;border:1px solid #e5e7eb}
+@media (prefers-color-scheme: dark){.details,.facture-header,.notes{border-color:#1f2937;background:#0f1114;color:#e5e7eb}}
+
+/* Totaux */
+.totaux{float:none;text-align:right;margin-top:16px}
+.totaux div{margin-bottom:6px}
+
+/* Buttons legacy */
+#btnPdf{display:inline-flex;align-items:center;gap:8px}
+
+/* Print: preserve original A4 dimensions */
+@media print{
+  .viewer-toolbar{display:none!important}
+  body.viewer-body{background:#fff}
+  #facture{width:794px!important;height:1123px!important;box-shadow:none;border-radius:0}
+}
