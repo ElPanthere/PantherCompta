@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Zone privée"
-AuthUserFile /var/www/vhosts/panther-simu.online/httpdocs/panther/.htpasswd
-Require valid-user
