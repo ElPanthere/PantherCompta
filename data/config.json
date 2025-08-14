@@ -1,7 +1,0 @@
-{
-    "installPath": "\/var\/www\/vhosts\/panther-simu.online\/httpdocs\/panther\/",
-    "admin": {
-        "username": "ElPanther",
-        "password": "$2y$10$hrp71bDg90mEBPSVklTVZ.zmyyYXkmJvHunzPGePde6RYb1a87T4y"
-    }
-}

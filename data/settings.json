@@ -1,0 +1,13 @@
+{
+  "companyName": "Panthère Informatique",
+  "address1": "",
+  "address2": "",
+  "postalCode": "",
+  "city": "",
+  "siret": "",
+  "phone": "",
+  "vatRate": 0,
+  "urssafRateService": 22,
+  "urssafRateProduct": 12,
+  "logoPath": "assets/img/logo.png"
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panthère Informatique · Compta</title>
+  <link rel="icon" href="assets/img/favicon.png" />
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/font/lucide.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div id="app" class="min-h-screen flex">
+    <!-- Sidebar -->
+    <aside class="w-72 bg-white border-r border-gray-200 hidden md:flex md:flex-col">
+      <div class="h-16 px-4 flex items-center justify-between border-b">
+        <div class="flex items-center gap-3">
+          <img src="assets/img/logo.png" alt="logo" class="w-9 h-9 rounded-lg object-contain border" onerror="this.src='assets/img/default-logo.png'"/>
+          <div>
+            <h1 class="font-semibold leading-4">Panthère Informatique</h1>
+            <p class="text-xs text-gray-500">Comptabilité</p>
+          </div>
+        </div>
+      </div>
+      <nav id="sidebar" class="p-3 space-y-1 overflow-y-auto">
+        <!-- Nav items injected by app.js -->
+      </nav>
+      <div class="mt-auto p-3 text-xs text-gray-500 border-t">
+        <p>&copy; <span id="year"></span> Panthère Informatique</p>
+      </div>
+    </aside>
+
+    <!-- Mobile header -->
+    <header class="md:hidden fixed top-0 left-0 right-0 h-14 bg-white border-b border-gray-200 z-40 flex items-center px-3">
+      <button id="mobileMenuBtn" class="p-2 rounded-lg border"><i class="lucide-menu"></i></button>
+      <div class="ml-3 font-medium">Panthère · Compta</div>
+      <div class="ml-auto flex items-center gap-2">
+        <img src="assets/img/logo.png" class="w-7 h-7 rounded border" onerror="this.src='assets/img/default-logo.png'"/>
+      </div>
+    </header>
+    <div id="mobileDrawer" class="fixed inset-0 bg-black/40 hidden z-40">
+      <div class="absolute top-0 left-0 bottom-0 w-72 bg-white p-3">
+        <div class="flex items-center justify-between h-14">
+          <div class="font-semibold">Navigation</div>
+          <button id="mobileClose" class="p-2 rounded-lg border"><i class="lucide-x"></i></button>
+        </div>
+        <nav id="mobileSidebar" class="space-y-1"></nav>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <main class="flex-1 md:ml-0 pt-14 md:pt-0">
+      <!-- Topbar -->
+      <div class="hidden md:flex h-16 items-center justify-between px-6 border-b bg-white sticky top-0 z-30">
+        <div class="text-sm text-gray-500" id="breadcrumb">Dashboard</div>
+        <div class="flex items-center gap-2">
+          <button id="exportJsonBtn" class="px-3 py-2 text-sm border rounded-lg">Exporter JSON (ZIP)</button>
+          <label class="px-3 py-2 text-sm border rounded-lg cursor-pointer">
+            Importer ZIP <input id="importZipInput" type="file" accept=".zip" class="hidden">
+          </label>
+        </div>
+      </div>
+      <section id="view" class="p-4 md:p-6"></section>
+    </main>
+  </div>
+
+  <!-- Vendor libs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/pages/dashboard.js"></script>
+  <script src="assets/js/pages/clients.js"></script>
+  <script src="assets/js/pages/invoices.js"></script>
+  <script src="assets/js/pages/quotes.js"></script>
+  <script src="assets/js/pages/accounting.js"></script>
+  <script src="assets/js/pages/stock.js"></script>
+  <script src="assets/js/pages/stats.js"></script>
+  <script src="assets/js/pages/settings.js"></script>
+  <script src="assets/js/pages/purchases.js"></script>
+</body>
+</html>
